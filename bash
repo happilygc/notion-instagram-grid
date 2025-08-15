@@ -1,7 +1,6 @@
-notion-instagram-grid/
-│
-├── index.html        # Main widget UI
-├── style.css         # Instagram grid styles
-├── script.js         # Notion API & logic
-├── README.md         # Setup documentation
-└── vercel.json       # Hosting config (if using Vercel)
+git clone https://github.com/happilygc/notion-instagram-grid.git
+cd notion-instagram-grid
+# Copy index.html, style.css, script.js into this folder
+git add .
+git commit -m "Initial commit with widget code"
+git push origin main
