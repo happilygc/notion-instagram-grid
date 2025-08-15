@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram Grid Planner Widget</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="setup-form">
+    <h2>Notion Instagram Grid Setup</h2>
+    <label>Notion Token:
+        <input type="password" id="notionToken" placeholder="secret_xxx" required>
+    </label>
+    <label>Database ID:
+        <input type="text" id="databaseId" placeholder="xxxxxxxxxxxxxxxxxxxxxx" required>
+    </label>
+    <label>Grid Size:
+        <select id="gridSize">
+            <option value="3">3x3</option>
+            <option value="2">2x3</option>
+            <option value="1">1x3</option>
+        </select>
+    </label>
+    <button id="loadGrid">Load Grid</button>
+</div>
+
+<div id="gridContainer" class="grid"></div>
+
+<div class="embed-section">
+    <h3>Embed Code for Notion:</h3>
+    <textarea id="embedCode" readonly></textarea>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
